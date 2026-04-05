@@ -4,7 +4,7 @@
     (3) Keyword & default arguments
     (4) Scope
 '''
-print("===== DEFINE(parametr) VS CALL(argument) =====")
+print("====================================== DEFINE(parametr) VS CALL(argument) ======================================")
 # build in function › print type()
 # Function - reusable block of code!
 # Instead of block i} in JAVA, Python uses indentation!
@@ -28,7 +28,7 @@ result2 = greeting("Justin")
 print("result2:", result2)
 
 
-print("===== Keyword & default arguments =====")
+print("========================================= Keyword & default arguments =========================================")
 
 
 # DEFINE
@@ -43,3 +43,16 @@ print("result:", result3)
 
 result4 = give_greet("John")
 print("result4:", result4)
+
+print("=================================================== Scope =====================================================")
+b = 100    # 3
+
+
+# DEFINE
+def calculate(a):   # 2
+    c = a * b       # 1
+    print(f"the C value: {c}")
+
+
+# CALL
+calculate(5)
