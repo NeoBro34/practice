@@ -1,0 +1,5 @@
+# PRACTICE PROJECT
+
+```
+Python + AI
+```
