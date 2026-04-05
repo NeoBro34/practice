@@ -1,0 +1,28 @@
+''' FUNCTIONS
+    (1) DEFINE VS CALL
+    (2) Parametr vs Argument|
+    (3) Keyword & default arguments
+    (4) Scope
+'''
+print("===== DEFINE(parametr) VS CALL(argument) =====")
+# build in function › print type()
+# Function - reusable block of code!
+# Instead of block i} in JAVA, Python uses indentation!
+
+
+# DEFINE
+def greet(a):
+    print(f"How do you do, {a}")
+
+
+def greeting(b):
+    print("greeting is executed")
+    return f"Hi {b}"
+
+
+# CALL
+resulti = greet('Martin')
+print("resulti:", resulti)
+
+result2 = greeting("Justin")
+print("result2:", result2)
