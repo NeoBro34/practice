@@ -35,7 +35,7 @@ try:
     a = car_dict. speed
     result = car_dict["origin"]
     print("result:", result)
-except KeyError as err:
+except KeyError as err:  # yokida 'Exception' ni qo'ysak barcha turdagi errorlarni handling qilib beradi
     print("No origin state property found:", err)
 except AttributeError as err:
     print("No speed found:", err)
